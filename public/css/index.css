@@ -1,0 +1,138 @@
+@import url(variables.css);
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url(utilies.css);
+
+@font-face{
+  font-family:"Futura-Condensed-Medium";
+  src:url("fonts/FuturaCondensedMedium.otf") format("woff"),
+  url("fonts/FuturaCondensedMedium.otf") format("opentype"),
+  url("fonts/FuturaCondensedMedium.otf") format("truetype");
+}
+
+  /* .row {
+    background-color: var(--main-color);
+  } */
+  #fecha{
+    font-weight: bold;
+  }
+  .categoryTitle{
+    color: var(--main-color);
+    font-weight: bold;
+    text-align: justify;
+    color:black;
+    
+  }.categoryArticle{
+    font-family:"Futura-Condensed-Medium";
+    font-size: 20pt;
+    text-align: justify;
+    line-height: 5pt;
+    color:black;
+  }
+  .categoryArticle a {
+      color:black !important;
+  }
+  .MainNewTitle a {
+       color:black !important;
+  }
+  .categoryTitle a {
+      color:black !important;
+  }
+  
+  .category{
+    color:black;
+    
+  }
+
+  /* .category2{
+    color: var(--main-color);
+    font-weight: bold;
+  } */
+
+  .header{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .MainExtract
+  {text-align: justify;
+  }
+  .advert{
+    background-color: #333;
+    height: 100px;
+    width: 600px;
+  }
+  .menu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .menu-items{
+    font-weight: bold;
+    display: inline;
+    word-spacing: 15px;
+    overflow-y: hidden; 
+    overflow-x: auto;
+    white-space: nowrap;
+    
+    
+}.menu-items a{
+    color:#000;
+}
+.menu-items a:hover{
+    text-decoration: none;
+}
+
+.lastMin{
+  color:var(--main-color);
+  font-weight: bold;
+}
+.MainNewTitle{
+  font-family: 'Anton', sans-serif;
+  font-size: 25pt;
+  text-align: justify;
+  line-height: 25pt;
+  color:black;
+  
+}
+.imgOtherNew{
+  margin-right:-18px;
+}
+.fuel{
+  font-size: small;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer{
+ background-color: var(--main-color);
+ color: white;
+ margin-bottom: -10px;
+}
+.imgopinion{
+  margin-bottom: 5px;
+  border-radius: 20px;
+  width: 65%;
+}.tituloOpinion{
+    text-transform:uppercase;
+}.tituloOpinion  a {
+       color:black !important;
+}
+.aling-opinion-block{
+  justify-content: center;
+  align-items: center;
+}
+
+.othernewtitle a {
+       color:black !important;
+       line-height: 4pt;
+}
+.socialmedia{
+  letter-spacing: 10px;
+  font-size: 20px;
+}.social:hover{
+  cursor: pointer;
+  text-decoration: underline;
+}
+.copyright{
+  background-color: black;
+}
